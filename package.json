@@ -1,0 +1,31 @@
+{
+  "name": "broken-link-test",
+  "version": "1.0.0",
+  "description": "test broken links on page",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandervan/broken-link-test.git"
+  },
+  "author": "Arthur Krivitsky <arthur.vandervan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandervan/broken-link-test/issues"
+  },
+  "homepage": "https://github.com/vandervan/broken-link-test#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.2.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.2.0",
+    "@wdio/mocha-framework": "^7.2.0",
+    "@wdio/spec-reporter": "^7.2.0",
+    "chai": "^4.1.2",
+    "chromedriver": "^89.0.0",
+    "node-fetch": "^2.1.2",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
