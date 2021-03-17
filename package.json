@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/vandervan/broken-link-test#readme",
   "dependencies": {
-    "@wdio/cli": "^7.2.0"
+    "@wdio/cli": "^7.2.0",
+    "broken-link-checker": "^0.7.8",
+    "linkinator": "^2.13.6"
   },
   "devDependencies": {
     "@wdio/local-runner": "^7.2.0",
